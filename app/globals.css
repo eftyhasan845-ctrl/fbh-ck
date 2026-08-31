@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #080b10;
+  color: white;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.loginCard,
+.numberCard {
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border-radius: 18px;
+  background: #11161f;
+  border: 1px solid #27303d;
+}
+
+.loginCard h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  height: 52px;
+  padding: 0 15px;
+  border: 1px solid #303a49;
+  border-radius: 10px;
+  outline: none;
+  background: #080c12;
+  color: white;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #1877f2;
+}
+
+button {
+  height: 52px;
+  border: 0;
+  border-radius: 10px;
+  background: #1877f2;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: #ff6b7a;
+  text-align: center;
+  font-size: 14px;
+}
